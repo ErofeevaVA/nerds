@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NЁRDS design studio</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body class="inner-page">
+    <header class="main-header">
+      <div class="container clearfix">
+        <div class="navigation-bar clearfix">
+          <div class="main-logo">
+            <a href="index.html">
+              <img src="img/nerds_logo.png" width="139" height="56" alt="Nerds">
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul class="main-navigation-list">
+              <li>
+                <a href="#" class="navigation-link">Студия</a>
+              </li>
+              <li>
+                <a href="#" class="navigation-link">Клиенты</a>
+              </li>
+              <li>
+                <a href="catalog.html" class="navigation-link">Магазин</a>
+              </li>
+              <li>
+                <a href="#" class="navigation-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+            <div class="basket-container">
+              <a href="#" class="basket icon-basket">Корзина</a>
+            </div>
+        </div>
+        <h1 class="inner-page-title">Напишите нам</h1>
+      </div>
+    </header>
+
+    <div class="container clearfix">
+      <div class="inner-content">
+        <form class="login-form" action="/echo" method="post">
+          <div class="name">
+            <label for="user-name">Ваше имя:</label>
+            <input type="text" class="user-name" name="name" id="user-name" placeholder="Представьтесь, пожалуйста" required>
+          </div>
+          <div class="e-mail">
+            <label for="user-mail">Ваш e-mail:</label>
+            <input type="text" class="user-mail" name="mail" id="user-mail" placeholder="Для отправки ответа" required>
+          </div>
+          <label for="mail-text">Текст письма:</label>
+          <textarea class="mail-text" name="text" id="mail-text" rows="5">В свободной форме</textarea>
+          <button type="submit" class="button">Отправить</button>
+          <a href="#" class="cancel">Отмена</a>
+        </form>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+    <div class="container clearfix">
+      <div class="footer-social clearfix">
+        <div class="social-buttons">
+          <a href="#" class="social-btn social-btn-vk"><i class="icon-vk"></i></a>
+          <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+          <a href="#" class="social-btn social-btn-inst"><i class="icon-instagramm"></i></a>
+        </div>
+        <div class="social-text">
+          <p class="discount-offer">Давайте дружить, это выгодно!</p>
+          <p class="discount-info">Скидка 10% для друзей из социальных сетей</p>
+        </div>
+      </div>
+    </div>
+    </footer>
+
+  </body>
+</html>
